@@ -1201,6 +1201,13 @@
     "hexo-util" "^2.1.0"
     "marked" "^1.0.0"
 
+"hexo-renderer-pug@^1.0.0":
+  "integrity" "sha1-4jz6U9MIoJha6OwrJaT40kxLTcw="
+  "resolved" "https://registry.npm.taobao.org/hexo-renderer-pug/download/hexo-renderer-pug-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "pug" "^2.0.1"
+
 "hexo-renderer-stylus@^2.0.1":
   "integrity" "sha512-1S4AG8RtzWqVrqKIYv2AJ4UYms5SHDjkdYS7IiGwgUejL24agbTktpAbnH2cG1JWZ15SRqYN0UGB9aAoSAgvEA== sha1-xlVm6X6QWKUuRsgrDEXPVh9LlMs="
   "resolved" "https://registry.npm.taobao.org/hexo-renderer-stylus/download/hexo-renderer-stylus-2.0.1.tgz"
@@ -1222,6 +1229,14 @@
     "morgan" "^1.9.1"
     "open" "^7.0.0"
     "serve-static" "^1.14.1"
+
+"hexo-theme-butterfly@^3.7.8":
+  "integrity" "sha1-u+WDyG2iEERQdDStKy/QlZyNuyo="
+  "resolved" "https://registry.nlark.com/hexo-theme-butterfly/download/hexo-theme-butterfly-3.7.8.tgz"
+  "version" "3.7.8"
+  dependencies:
+    "hexo-renderer-pug" "^1.0.0"
+    "hexo-renderer-stylus" "^2.0.1"
 
 "hexo-util@^2.0.0", "hexo-util@^2.1.0", "hexo-util@^2.4.0":
   "integrity" "sha512-IPQvAyn0cznYMU2gskMiZ6LZEvN7wHNusrJoYxrir4f7S7POpZeDTBswiko9R1qqd+/hu07wUYZdm4ceTTCEaA== sha1-9cAJmgoXGLOtJwYeXk0fuet/K0E="
